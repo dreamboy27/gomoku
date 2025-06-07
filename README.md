@@ -17,14 +17,17 @@ A simple console-based implementation of the classic Gomoku game in Java.
 
 ```bash
 git clone git@github.com:dreamboy27/gomoku.git
-cd gomoku```
+cd gomoku
+```
 
 2. Compile the program:
 
 `bash
-javac Main.java`
+javac Main.java
+`
 
 3. Run the program:
 
 `bash
-java Main`
+java Main
+`
