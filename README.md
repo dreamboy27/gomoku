@@ -22,12 +22,12 @@ cd gomoku
 
 2. Compile the program:
 
-`bash
+```bash
 javac Main.java
-`
+```
 
 3. Run the program:
 
-`bash
+```bash
 java Main
-`
+```
