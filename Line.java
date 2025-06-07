@@ -181,8 +181,6 @@ public class Line implements Comparable<Line> {
 
 
 
-    // compare(x,y) : x < y thi x duoc uu tien, con khong thi y duoc uu tien
-
     @Override
     public int compareTo(Line other) {
         if (this.player == other.player) {

@@ -193,28 +193,6 @@ public class GameBoard {
         return moves.subList(0, Math.min(moves.size(), 20));
     }
 
-//    static void printLine() {
-//        for (Line line : lineSet) {
-//            System.out.println(line.toString());
-//        }
-//    }
-
-//    static public int evaluate() {
-//        int score = 0;
-//        for (int i = 0; i < GameBoard.SIZE; i++) {
-//            score += evaluateLine(i, 0, 0, 1);  // ngang
-//            score += evaluateLine(0, i, 1, 0);  // dọc
-//        }
-//        for (int i = 0; i < GameBoard.SIZE; i++) {
-//            score += evaluateLine(i, 0, 1, 1);  // \\ cheo chinh
-//            score += evaluateLine(0, i+1, 1, 1);  //
-//        }
-//        for (int i = 0; i < GameBoard.SIZE; i++) {
-//            score += evaluateLine(0, i, 1, -1); // //
-//            score += evaluateLine(i+1, GameBoard.SIZE - 1, 1, -1); // //
-//        }
-//        return score;
-//    }
 
     static int evaluateLine(int x, int y, int dx, int dy) {
         int result = 0;

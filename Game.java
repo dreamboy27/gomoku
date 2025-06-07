@@ -6,7 +6,7 @@ public class Game {
 
 
     public static void showMenu() {
-        System.out.println("Welcome to Gomoku game!");
+        System.out.println("\u001B[0m" + "Welcome to Gomoku game!");
     }
 
     public static void playGame() {
