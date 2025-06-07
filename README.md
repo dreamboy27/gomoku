@@ -4,7 +4,7 @@ A simple console-based implementation of the classic Gomoku game in Java.
 
 ## 📦 Features
 
-- Two-player Gomoku (X vs O)
+- Two-player Gomoku (X - Human vs O - Computer)
 - AI with **Minimax algorithm and Alpha-Beta pruning**
 - Search depth: **8**
 - Board size: **15x15**
