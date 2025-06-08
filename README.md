@@ -16,7 +16,7 @@ A simple console-based implementation of the classic Gomoku game in Java.
 1. Clone this repository:
 
 ```bash
-git clone git@github.com:dreamboy27/gomoku.git
+git clone https://github.com/dreamboy27/gomoku.git
 cd gomoku
 ```
 
